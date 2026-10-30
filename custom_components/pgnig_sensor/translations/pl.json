@@ -1,0 +1,38 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Logowanie do eBOK PGNiG",
+        "description": "Wprowadź swoje dane logowania do serwisu eBOK (myorlen.pl).",
+        "data": {
+          "username": "E-mail",
+          "password": "Hasło"
+        }
+      },
+      "sms": {
+        "title": "Weryfikacja dwuetapowa",
+        "description": "Na Twój numer telefonu powiązany z kontem Orlen został wysłany SMS. Przepisz go poniżej.",
+        "data": {
+          "sms_code": "Kod SMS"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Ponowne uwierzytelnienie dla {username}",
+        "description": "Sesja z PGNiG (Orlen) wygasła lub została przerwana. Aby kontynuować pobieranie danych, podaj ponownie hasło. Zostanie wysłany nowy kod SMS.",
+        "data": {
+          "password": "Hasło"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Nie można połączyć się z serwerem PGNiG.",
+      "invalid_auth": "Nieprawidłowy e-mail lub hasło.",
+      "invalid_sms": "Nieprawidłowy kod SMS.",
+      "unknown": "Wystąpił nieoczekiwany błąd."
+    },
+    "abort": {
+      "already_configured": "Konto jest już skonfigurowane.",
+      "reauth_successful": "Integracja została pomyślnie uwierzytelniona ponownie!"
+    }
+  }
+}

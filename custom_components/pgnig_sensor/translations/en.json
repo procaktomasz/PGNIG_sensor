@@ -1,0 +1,38 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Login to eBOK PGNiG",
+        "description": "Enter your login credentials for eBOK (myorlen.pl).",
+        "data": {
+          "username": "E-mail",
+          "password": "Password"
+        }
+      },
+      "sms": {
+        "title": "Two-factor Authentication",
+        "description": "An SMS code has been sent to your phone number. Please enter it below.",
+        "data": {
+          "sms_code": "SMS Code"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Reauthenticate {username}",
+        "description": "The PGNiG session expired. Please enter your password to reauthenticate. A new SMS code will be sent.",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to PGNiG server.",
+      "invalid_auth": "Invalid e-mail or password.",
+      "invalid_sms": "Invalid SMS code.",
+      "unknown": "An unexpected error occurred."
+    },
+    "abort": {
+      "already_configured": "Account is already configured.",
+      "reauth_successful": "Reauthentication was successful!"
+    }
+  }
+}

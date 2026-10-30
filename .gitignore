@@ -1,0 +1,21 @@
+# Materiały analityczne i ręczne testy
+Analiza/
+*.har
+AGENTS.md
+
+# Pliki cookies sesji (starsze wersje integracji)
+pgnig_cookies_*.dat
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# --- IDE / system ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
