@@ -1,0 +1,2 @@
+# Zależności wyłącznie do testów (Home Assistant 2026.9.2)
+pytest-homeassistant-custom-component==0.13.365
