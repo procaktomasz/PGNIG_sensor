@@ -1,13 +1,13 @@
 {
   "domain": "pgnig_sensor",
   "name": "PGNiG eBOK Sensor",
-  "version": "1.1.0",
-  "documentation": "https://github.com/procaktomasz/PGNIG_sensor",
-  "issue_tracker": "https://github.com/procaktomasz/PGNIG_sensor/issues",
   "codeowners": [
     "@procaktomasz"
   ],
-  "requirements": [],
   "config_flow": true,
-  "iot_class": "cloud_polling"
+  "documentation": "https://github.com/procaktomasz/PGNIG_sensor",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/procaktomasz/PGNIG_sensor/issues",
+  "requirements": [],
+  "version": "1.1.0"
 }
